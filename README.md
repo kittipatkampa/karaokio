@@ -21,10 +21,13 @@ Work log:
 
 ## TODO:
 - Try more source separation packages from this [list on demucs 4.0.0](https://pypi.org/project/demucs/).
-- spleeter seems to be among the top, so need to get it to work.
+- [spleeter](https://github.com/deezer/spleeter) seems to be among the top, so need to get it to work.
     - I found it's very hard to install
+
+## Notes
 - Checkout which packages they use for:
     - [splitter.ai](https://splitter.ai/) provides piano extractor
     - [https://vocalremover.org/](https://vocalremover.org/splitter-ai) provides guitar extractor
+- This page [Music Source Separation](https://paperswithcode.com/task/music-source-separation) gives a very good overview
 
 
