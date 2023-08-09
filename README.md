@@ -11,8 +11,24 @@ Separate source audio into vocals, bass, drums and other instruments.
 - remix the audio
 - combine the remixed audio with the video
 
+# Quick start
+Need to install ffmpeg
+Mac: This will install on `/opt/homebrew/bin/ffmpeg`
+```
+brew install ffmpeg
+```
+However, many python packages will look for ffmpeg in `/usr/local/bin/ffmpeg`
+sudo ln -s /opt/homebrew/bin/ffmpeg /usr/local/bin/ffmpeg
+```
 
-Work log:
+```
+git clone https://github.com/kittipatkampa/karaokio.git
+cd karaokio
+poetry install
+poetry run jupyter lab
+```
+
+# Work log:
 
 ## 2023-03-12
 - Use open-unmix to perform source sepation, which supports vocals, drums, bass and group the remaining as "others"
